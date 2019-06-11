@@ -1,0 +1,259 @@
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+}
+/*标头*/
+.side-header{
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #e3e3e3;
+	background-color: #f0f0f0;
+	position: relative;
+}
+.part{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+.logo{
+	float: left;
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	margin: 28px 0;
+}
+.title{
+	float: left;
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    padding: 5px 0 0 10px;
+    line-height: 30px;
+    margin: 35px 0 35px 19px;
+    font-size: 24px;
+    color: #303030;
+}
+.title h3{
+     font-weight: 400;
+     font-size: 24px;
+}
+.header-right li{
+	float: left;
+	padding: 0;
+	margin-right: 15px;
+	color: #6c6c6c;
+	padding-right: 15px;
+}
+.header-right a {
+	color: #6c6c6c;
+	font-size: 14px;
+	padding-right: 15px;
+	margin-left: -15px;
+}
+.header-right{
+	float: right;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+/*固定*/
+.right-side{
+	width: 120px;
+	position: fixed;
+	right: 55px;
+	top: 2px;
+}
+.right-side .imgs{
+	width: 61px;
+	height: 84px;
+	margin: 0 auto -12px;
+	margin-left: 25px;
+	background: url(../image/tb1.svg) ;
+	background-size: 61px 84px;
+}
+.right-side a{
+	color: #6c6c6c;
+	font-size: 14px;
+}
+.right-side .over-side{
+	width: 116px;
+	border: 2px solid #f7931e;
+	background: #fff;
+	border-radius: 15px;
+
+
+}
+.right-side li{
+	padding: 4px 2px;
+}
+.right-side .list1{
+	/*background-color: #fff;*/
+}
+.right-side .list2{
+	background-color: #fff8e8;
+}
+.right-side .list3{
+	background-color: #f7931e;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+..right-side li:hover{
+	background-color: #fff0cc;
+}
+.right-side .list3 img{ 
+	margin: 1px 0 -8px 0;
+}
+.right-side .list3 a{
+	color: #fff;
+	font-weight: 500;
+}
+/*中间内容*/
+.content-box{
+	margin: 0 auto;
+	width: 774px;
+	height: auto;
+}
+.content-name{
+	display: block;
+	padding-bottom: 10px;
+}
+.content-name p{
+	font-size: 14px;
+	margin: 0;
+	color: #6c6c6c;
+	position: relative;
+	zoom:1;
+}
+.content-name p img{
+	position: relative;
+	float: left;
+	left: -180px;
+}
+.password{
+	position: relative;
+    left: -170px;
+    top: 3px;
+    color: #6c6c6c;
+    font-size: 14px;
+}
+.content-contents{
+	margin-top: 30px;
+	/*color: #6c6c6c;*/
+}
+.content-contents .content-list1 ,.content-list2{
+	padding: 0 5px 20px 190px;
+	zoom:1;
+	color: #6c6c6c;
+}
+ .name{
+	float: left;
+	width: 210px;
+	margin-left: -220px;
+	padding-top: 5px;
+	text-align: right;
+	font-size: 14px;
+}
+.content-list1 .text{
+	width: 190px;
+	padding: 8px 9px;
+	line-height: 18px;
+	border: 1px solid #ddd;
+	font-size: 12px;
+	vertical-align: middle;
+
+}
+.content-list1 .know{
+	margin-left: 4px;
+	font-size: 12px;
+}
+.verify-name{
+	margin-left: 4px;
+	font-size: 14px;
+}
+.verify{
+	width: 300px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	background: url(../image/yanz2.png);
+	margin-left: 194px;
+    margin-bottom: 0;
+    top: -13px;
+
+}
+.ico{
+	background: #44ff2f;
+	height:18px; 
+	width:20px;
+	display: inline-block;
+	vertical-align: bottom;
+	border-radius: 50%;
+	color: #fff;
+	margin-bottom: 60px;
+}
+.ico:after{
+	content: "";
+    border: 2px solid #fff;
+    width: 10px;
+    height: 6px;
+    display: block;
+    border-left: 0px;
+    border-bottom: 0px;
+    transform: rotate(135deg);
+    margin-top: 4px;
+    margin-left: 4.5px
+    
+}
+.verify .verify-text{
+	font-size: 14px;
+	vertical-align: middle;
+	height: 80px;
+	text-align: left;
+	width: 154px;
+	/*margin-left: 16px;*/
+}
+..verify .verify-box{
+	margin: 0 10px;
+	height: 80px;
+	width: 250px;
+	text-align: center;
+	color: #3c3c3c;
+	line-height: 20px;
+}
+.verify span{
+	display: inline-block;
+}
+.verify-box img{
+	margin-left: 25px;
+    margin-top: 4px;
+
+}
+.button{
+	padding: 0 5px 20px 190px;
+}
+.button-content{
+	vertical-align: middle;
+	line-height: 36px;
+	min-width: 150px;
+	color: #fff;
+	border: 1px solid #f40;
+	background-color: #f40;
+	margin-left: 4px;
+}
+.button:after{
+	color: both;
+	content: '.';
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
